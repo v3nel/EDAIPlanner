@@ -1,0 +1,6 @@
+homework.db
+.env
+.venv
+credentials.json
+user_data.db
+response.json
