@@ -187,3 +187,6 @@ if __name__ == "__main__":
     for hw in homework:
         print(f"ID: {hw['id']}, Matière: {hw['matiere']}, Date: {hw['date']}")
         print(f"Contenu: {hw['contenu']}\n")
+
+
+print("This is dev version")
