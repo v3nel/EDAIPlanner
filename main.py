@@ -102,7 +102,6 @@ def get_ecole_directe_homework():
             print(f"Erreur HTTP {response.status_code} : {response.text}")
             return []
 
-
         login_data = {
             "identifiant":USERNAME,
             "motdepasse":PASSWORD,
@@ -187,6 +186,3 @@ if __name__ == "__main__":
     for hw in homework:
         print(f"ID: {hw['id']}, Matière: {hw['matiere']}, Date: {hw['date']}")
         print(f"Contenu: {hw['contenu']}\n")
-
-
-print("This is dev version")
